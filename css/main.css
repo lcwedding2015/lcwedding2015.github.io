@@ -100,7 +100,7 @@ h1 {
     margin: 0 auto;
     color: #8c8b8b;
     position: relative;  
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1em;
 }
 
@@ -127,12 +127,12 @@ body {
 }
 
 #secondary-nav {
-    position: absolute;
-    bottom: 20px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     text-align: center;
+    background-color: #333;
+    padding: 0.25em 0;
 }
 
 #secondary-nav a,
@@ -163,35 +163,15 @@ a:hover {
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
+.mobile-img {
+    width: 100%;
+}
 /* ==========================================================================
    Home page
    ========================================================================== */
 
-  h1.one {
-    margin-top: 0;
-  }
-
-h1.one:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-    border: 0; 
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-  }
   
-  h1.one span {
-    background: #fff;
-    padding: 0 20px;
-    position: relative;
-    z-index: 5;
-  }
 
 #landing {
     display: table;
@@ -220,7 +200,7 @@ h1.one:before {
 
 #nav a,
 #nav a:visited {
-    color: #ccc;
+    color: #333;
 }
 
 #nav a:hover {
@@ -317,34 +297,12 @@ h1.one:before {
 }
 
 #kiss {
-    background-image: url(../img/gall/91.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    height: 100vh;
     position: relative;
 }
-
 
 /*******************************************
 Story page
 *******************************************/
-
-#story-hero {
-    background-image: url(../img/engage1.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    height: 100vh;
-}
 
 #story-hero h1 {
     color: white;
@@ -358,15 +316,15 @@ Story page
 }
 
 #story {
-    margin-bottom: 8em;
+    margin-bottom: 2em;
 }
 
 #story p {
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 2em;
-    font-size: 1.25em;
+    line-height: 1.4em;
+    font-size: 1.1em;
 }
 
 #story img {
@@ -380,37 +338,28 @@ Story page
 }
 
 .story-section {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .medium-img {
-    width: 50%;
+    width: 80%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .vertical-imgs-container {
-    width: 98%;
+    width: 100%;
     text-align: center;
 }
 
 .vertical-img {
-    width: 30%;
+    width: 32%;
 }
 
 .story-final-hero {
-    background-image: url(../img/engage7.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    height: 100vh;
-    position: relative;
-    text-align: center;
+        position: relative;
+        text-align: center;
 }
 
 /* ==========================================================================
@@ -424,6 +373,32 @@ Story page
         margin-top: 1em;
         margin-bottom: 0.75em; 
     }
+
+    h1.one {
+    margin-top: 0;
+    }
+
+    h1.one:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        border: 0; 
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+      }
+  
+  h1.one span {
+    background: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 5;
+  }
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -451,13 +426,8 @@ Story page
 
     #landing img{
         width: 70%;
-        margin-top: 2em;
-        margin-bottom: 2em; 
-    }
-
-    #secondary-nav li {
-        padding: 0.5em 1em;
-        font-size: 1.25em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em; 
     }
 
     #intro-container {
@@ -487,9 +457,51 @@ Story page
         /*text-align: left !important;*/
     }
 
+    .story-section {
+        margin-top: 4em;
+    }
+
+    #story p {
+        width: 50%;
+        line-height: 2em;
+        font-size: 1.25em;
+    }
+
+    .medium-img {
+        width: 50%;
+    }
+
+    .vertical-imgs-container {
+        width: 98%;
+        text-align: center;
+    }
+
+    .vertical-img {
+        width: 30%;
+    }
+
+    #story {
+        margin-bottom: 8em;
+    }
+
 }
 
 @media only screen and (min-width: 1025px) {
+    #secondary-nav {
+        position: absolute;
+        bottom: 20px;
+        background-color: transparent;
+    }
+
+    #secondary-nav li {
+        padding: 0.5em 1em;
+        font-size: 1.25em;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
     #divider-img {
         background-attachment: fixed;
         height: 20vh;
@@ -505,8 +517,42 @@ Story page
     }
 
     #kiss {
+        background-image: url(../img/gall/91.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+        background-position: center;
+        height: 100vh;
+        position: relative;
     }
+
+    #story-hero {
+        background-image: url(../img/engage1.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom;
+        height: 100vh;
+    }
+
+    .story-final-hero {
+        background-image: url(../img/engage7.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom;
+        height: 100vh;
+}
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -539,7 +585,7 @@ Story page
         margin-top: 2em;
         line-height: 2em;
         text-align: left !important;
-    }*/
+    }
 
     #lightgallery {
         width: 70%;
