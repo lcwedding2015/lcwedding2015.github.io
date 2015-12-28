@@ -91,7 +91,8 @@ textarea {
    General / Shared
    ========================================================================== */
 a,
-h1 {
+h1,
+h2 {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -101,6 +102,15 @@ h1 {
     color: #8c8b8b;
     position: relative;  
     font-weight: 400;
+    font-size: 1em;
+}
+
+h2 {
+    /*width: 96%;*/
+    margin: 0 auto;
+    color: #8c8b8b;
+    position: relative;  
+    font-weight: 200;
     font-size: 1em;
 }
 
@@ -170,9 +180,6 @@ a:hover {
 /* ==========================================================================
    Home page
    ========================================================================== */
-
-  
-
 #landing {
     display: table;
     margin: 0 auto;
@@ -239,6 +246,21 @@ a:hover {
     width: 100%;
 }
 
+.wedding-party {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wedding-party p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wedding-party img {
+    width: 100%;
+}
+
 #wedding-text {
     width: 80%;
     margin: 2em auto 0 auto;
@@ -275,6 +297,15 @@ a:hover {
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+#hash4 {
+    margin-bottom: 3em;
+}
+
+#hash4 img {
+    margin-top: 15px;
+    width: 50% !important;
 }
 
 #wedding-nav {
@@ -400,6 +431,16 @@ Story page
     z-index: 5;
   }
 
+  .wedding-party {
+        width: 46%;
+        display: inline-block;
+    }
+
+    .wedding-party img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -418,6 +459,10 @@ Story page
     h1 {
         width: 70%;
         font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.25em;
     }
 
     #landing-content {
@@ -456,7 +501,12 @@ Story page
         line-height: 2em;
         /*text-align: left !important;*/
     }
-
+    .wedding-section {
+        margin-top: 5em;
+    }
+    .wedding-video {
+        margin-top: 5em;
+    }
     .story-section {
         margin-top: 4em;
     }
@@ -487,6 +537,20 @@ Story page
 }
 
 @media only screen and (min-width: 1025px) {
+    #lightgallery {
+        width: 70%;
+        margin: 2em auto 6em auto;
+    }
+
+    #lightgallery img {
+        width: 150px;
+    /*    height: auto;
+        margin-top: 15px;
+        margin-right: 10px;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);*/
+    }
+
     #secondary-nav {
         position: absolute;
         bottom: 20px;
@@ -504,7 +568,6 @@ Story page
 
     #divider-img {
         background-attachment: fixed;
-        height: 20vh;
         margin: 6em 0;
     }
 
@@ -551,7 +614,7 @@ Story page
         background-attachment: fixed;
         background-position: bottom;
         height: 100vh;
-}
+    }
 
 }
 
@@ -561,7 +624,7 @@ Story page
         font-size: 1em;
     }
 
-/*    #intro-container {
+    #intro-container {
     margin: 4em auto 0 auto;
     width: 60%;
     }
@@ -587,19 +650,7 @@ Story page
         text-align: left !important;
     }
 
-    #lightgallery {
-        width: 70%;
-        margin: 2em auto 6em auto;
-    }
 
-    #lightgallery img {
-        width: 150px;
-        height: auto;
-        margin-top: 15px;
-        margin-right: 10px;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-    }
 
 }
 
@@ -614,7 +665,7 @@ Story page
 
 /* ==========================================================================
    Helper classes
-   ========================================================================== */
+   ========================================================================== 
 
 .hidden {
     display: none !important;
