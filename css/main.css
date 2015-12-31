@@ -162,17 +162,17 @@ body {
     border-left: 1px solid white;
 }
 
-#secondary-nav a:hover {
+/*#secondary-nav a:hover {
     color: gray;
-}
+}*/
 
-a:hover {
+/*a:hover {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
+}*/
 
 .mobile-img {
     width: 100%;
@@ -207,10 +207,6 @@ a:hover {
 
 #nav a,
 #nav a:visited {
-    color: #333;
-}
-
-#nav a:hover {
     color: #333;
 }
 
@@ -262,13 +258,13 @@ a:hover {
 }
 
 #wedding-text {
-    width: 80%;
+    width: 70%;
     margin: 2em auto 0 auto;
     line-height: 1.5em;
 }
 
 #invite {
-    width: 50%;
+    width: 40%;
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1px;
@@ -311,6 +307,11 @@ a:hover {
 #wedding-nav {
     margin: 2em 0;
     text-align: center;
+}
+
+.wedding-section,
+.wedding-video {
+    margin-top: 2em;
 }
 
 #wedding-nav li {
@@ -399,11 +400,6 @@ Story page
 
 @media only screen and (min-width: 480px) {
 
-    #landing img{
-        width: 80%;
-        margin-top: 1em;
-        margin-bottom: 0.75em; 
-    }
 
     h1.one {
     margin-top: 0;
@@ -441,6 +437,11 @@ Story page
         margin: 0 auto;
     }
 
+    .wedding-section,
+    .wedding-video {
+        margin-top: 3em;
+    }
+
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -469,12 +470,6 @@ Story page
         padding-top: 2em;
     }
 
-    #landing img{
-        width: 70%;
-        margin-top: 1.5em;
-        margin-bottom: 1.5em; 
-    }
-
     #intro-container {
         margin: 3em auto 0 auto;
         width: 94%;
@@ -501,12 +496,12 @@ Story page
         line-height: 2em;
         /*text-align: left !important;*/
     }
-    .wedding-section {
-        margin-top: 5em;
-    }
+
+    .wedding-section,
     .wedding-video {
-        margin-top: 5em;
+        margin-top: 4em;
     }
+
     .story-section {
         margin-top: 4em;
     }
@@ -537,6 +532,12 @@ Story page
 }
 
 @media only screen and (min-width: 1025px) {
+    #landing img{
+        width: 85%;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em; 
+    }
+
     #lightgallery {
         width: 70%;
         margin: 2em auto 6em auto;
@@ -660,6 +661,72 @@ Story page
         height: 100vh;
     }
 
+    #landing img{
+        width: 75%;
+        /*margin-top: 1.5em;
+        margin-bottom: 1.5em; */
+    }    
+
+}
+
+/* ==========================================================================
+   Hover effect from Hover.css
+   ========================================================================== 
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.underline-light:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  /*background: #2098d1;*/
+  background: #fff;  
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.underline-dark:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  /*background: #2098d1;*/
+  background: #888;  
+  height: 1px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
 }
 
 
