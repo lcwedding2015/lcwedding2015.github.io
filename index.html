@@ -1,15 +1,5 @@
 <!doctype html>
 
-<!-- 
-
-To do:
-1. hover.css
-2. add links / gallery to non gallery images
-3. Center invitation vertically
-4. Scroll link to wedding
-
--->
-
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
@@ -26,13 +16,26 @@ To do:
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/lightgallery.css" />
         <!-- <link rel="stylesheet" href="css/lg-fb-comment-box.css" />  -->
-        <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
  
     </head>
     <body>
+        <!-- Lightgallery facebook comment code -->
+        <div id="fb-root"></div>
+ 
+        <script>
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        </script>
+
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -60,7 +63,7 @@ To do:
                 <section id="wedding-intro">
                     <h1 class="one"><span>The Wedding</span></h1>
                     <div id="intro-container">
-                        <p id="wedding-text">Elizabeth Stuart and Christopher Lester were married on Saturday May 16, 2015 at St. Charles Borromeo in Sacramento. Following the ceremony, a reception was held at the home of a family friend. With guests coming from as far as Hong Kong, the bride and groom drank, ate, and danced until late in the evening and felt truly blessed, surrounded by their friends and family.</p>
+                        <p id="wedding-text">Elizabeth Stuart and Christopher Lester were married on Saturday May 16, 2015 at St. Charles Borromeo in Sacramento. Following the ceremony, a reception was held at the home of INSERT NAME HERE. With guests coming from as far as Hong Kong, the bride and groom drank, ate, and danced until late in the evening and felt truly blessed, surrounded by their friends and family.</p>
                         <img id="invite" src="img/gall/1.jpg" />
                     </div>
                 </section>
@@ -68,13 +71,13 @@ To do:
                 <!-- <img src="img/gall/57.jpg" alt="The Wedding Party"> -->
                 <div class="wedding-party">
                     <h2>The Bride and Bridesmaids</h2>
-                    <p>Bridesmaid 1, Bridesmaid 2, Elizabeth Stuart, Bridesmaid 3, Bridesmaid 4, Rebecca Lester</p>
                     <img src="img/gall/59.jpg" alt="The Bride and Bridesmaids">
+                    <p>Bridesmaid 1, Bridesmaid 2, Elizabeth Stuart, Bridesmaid 3, Bridesmaid 4, Rebecca Lester</p>
                 </div>
                 <div class="wedding-party">
                     <h2>The Groom and Groomsmen</h2>
-                    <p>Groomsman 1, Groomsman 2, Groomsman 3, Christopher Lester, Groomsman 4, Torin Lester</p>
                     <img src="img/gall/60.jpg" alt="The Groom and Groomsmen">
+                    <p>Groomsman 1, Groomsman 2, Groomsman 3, Christopher Lester, Groomsman 4, Torin Lester</p>
                 </div>
                 <div id="lightgallery">
                     <div class="wedding-section">
@@ -439,7 +442,7 @@ To do:
                   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                   if (target.length) {
                     $('html,body').animate({
-                      scrollTop: target.offset().top
+                      scrollTop: target.offset().top + 3000
                     }, 1000);
                     return false;
                   }

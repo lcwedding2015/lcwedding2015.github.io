@@ -251,10 +251,12 @@ body {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    color: #8c8b8b;
 }
 
 .wedding-party img {
     width: 100%;
+    margin-top: 15px;
 }
 
 #wedding-text {
@@ -434,7 +436,8 @@ Story page
 
     .wedding-party img {
         width: 80%;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .wedding-section,
@@ -494,7 +497,6 @@ Story page
         margin-right: 4em;
         margin-top: 2em;
         line-height: 2em;
-        /*text-align: left !important;*/
     }
 
     .wedding-section,
@@ -644,11 +646,6 @@ Story page
     #wedding-text {
         display: inline-block;
         font-size: 1.25em;
-        width: 40%;
-        margin-right: 4em;
-        margin-top: 2em;
-        line-height: 2em;
-        text-align: left !important;
     }
 
 
