@@ -274,8 +274,7 @@ body {
 }
 
 #lightgallery,
-#disqus_thread
- {
+#HCB_comment_box {
     width: 90%;
     margin: 1em auto 3em auto;
 }
@@ -548,7 +547,7 @@ Story page
     }
 
     #lightgallery,
-    #disqus_thread {
+    ##HCB_comment_box {
         width: 70%;
         margin: 2em auto 6em auto;
     }
