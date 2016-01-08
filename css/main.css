@@ -534,10 +534,15 @@ Story page
 }
 
 @media only screen and (min-width: 1025px) {
+
     #landing img{
-        width: 85%;
+        max-width: 75%;
         margin-top: 1.5em;
         margin-bottom: 1.5em; 
+    }
+
+    #landing {
+        height: 100vh;
     }
 
     #lightgallery {
@@ -653,16 +658,7 @@ Story page
 }
 
 @media only screen and (min-width: 1480px) {
-
-    #landing {
-        height: 100vh;
-    }
-
-    #landing img{
-        width: 75%;
-        /*margin-top: 1.5em;
-        margin-bottom: 1.5em; */
-    }    
+ 
 
 }
 
