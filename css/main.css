@@ -160,6 +160,7 @@ body {
 
 #secondary-nav li:nth-child(2) {
     border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 
 /*#secondary-nav a:hover {
@@ -218,6 +219,7 @@ body {
 
 #nav li:nth-child(2) {
     border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 #divider-img {
@@ -324,6 +326,7 @@ body {
 
 #wedding-nav li:nth-child(2) {
     border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
 }
 
 #wedding-nav a,
@@ -542,10 +545,6 @@ Story page
         margin-bottom: 1.5em; 
     }
 
-    #landing {
-        height: 100vh;
-    }
-
     #lightgallery {
         width: 70%;
         margin: 2em auto 6em auto;
@@ -607,7 +606,7 @@ Story page
 
     #comments_list {
         background-color: #ddd;
-        background-color: rgba(0, 0, 0, 0.5)
+        background-color: rgba(255, 255, 255, 0.5)
     }
 
     #story-hero {
@@ -633,7 +632,6 @@ Story page
         background-position: bottom;
         height: 100vh;
     }
-
 }
 
 @media only screen and (min-width: 1140px) {
@@ -662,14 +660,12 @@ Story page
         display: inline-block;
         font-size: 1.25em;
     }
-
-
-
 }
 
 @media only screen and (min-width: 1480px) {
- 
-
+     #landing {
+        height: 100vh;
+    }
 }
 
 /* ==========================================================================
