@@ -538,11 +538,16 @@ Story page
 
 @media only screen and (min-width: 1025px) {
 
+    h1 {
+        width: 85%;
+    }
+
     #landing img{
         width: 85%;
         margin-top: 1.5em;
         margin-bottom: 1.5em; 
     }
+
 
     #lightgallery {
         width: 70%;
