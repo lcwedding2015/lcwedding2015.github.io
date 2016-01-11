@@ -195,15 +195,16 @@ body {
 
 #landing img{
     width: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em; 
+    margin-top: 1em; 
 }
 
 #nav {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    width: 70%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.7);
+    padding: 1em 0;
 }
 
 #nav a,
@@ -232,7 +233,6 @@ body {
     background-attachment: scroll;
     background-position: center;
     height: 20vh;
-    margin: 2em 0 2em;
 }
 
 #wedding-intro {
@@ -667,6 +667,9 @@ Story page
 }
 
 @media only screen and (min-width: 1480px) {
+    #landing img {
+        width: 75%;
+    }
      #landing {
         height: 100vh;
     }
