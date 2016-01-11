@@ -533,6 +533,11 @@ Story page
     #story {
         margin-bottom: 8em;
     }
+    #HCB_comment_box,
+    #hcb_form_name {
+        width: 70%;
+        margin: 0 auto;
+    }
 
 }
 
