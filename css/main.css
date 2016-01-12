@@ -338,10 +338,6 @@ body {
     position: relative;
 }
 
-#hcb-icon {
-    display: none;
-}
-
 /*******************************************
 Story page
 *******************************************/
@@ -676,11 +672,19 @@ Story page
 }
 
 @media only screen and (min-width: 1480px) {
-    #landing img {
+    #landing img,
+    h1 {
         width: 75%;
     }
      #landing {
         height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1660px) {
+    #landing img,
+    h1 {
+        width: 70%;
     }
 }
 
@@ -742,13 +746,6 @@ Story page
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
-}
-
-/* ==========================================================================
-   Disqus
-   ==========================================================================*/ 
-#disqus_thread {
-    width: 96%;
 }
 
 /* ==========================================================================
