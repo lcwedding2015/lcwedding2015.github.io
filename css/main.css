@@ -347,6 +347,10 @@ body {
 #hcb_form_email {
     width: 60%;
     margin: 1em auto;
+    background-color: transparent; 
+    border-style: solid; 
+    border-width: 0px 0px 1px 0px; 
+    border-color: gray;
 }
 
 #HCB_comment_box h3 {
@@ -361,18 +365,6 @@ body {
     display: none;
 }
 
-::-webkit-input-placeholder {
- text-transform: capitalize;
-}
-:-moz-placeholder { /* older Firefox*/
- text-transform: capitalize;
-}
-::-moz-placeholder { /* Firefox 19+ */ 
-  text-transform: capitalize;
-} 
-:-ms-input-placeholder { 
- text-transform: capitalize;
-}
 /*******************************************
 Story page
 *******************************************/
