@@ -346,15 +346,16 @@ body {
     display: none;
 }
 
-#hcb_form_email {
-	width: 86%;
+#hcb_form_email,
+#hcb_form_name {
+	width: 70%;
 	margin: 1em;
 }
 
 #guestbook {
 	margin-top: 2em;	
 }
-}
+
 /*******************************************
 Story page
 *******************************************/
