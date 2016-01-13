@@ -114,7 +114,8 @@ h2 {
     font-size: 1em;
 }
 
-p {
+p,
+blockquote {
     font-family: 'Lusitana', serif;
 }
 
