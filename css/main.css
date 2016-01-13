@@ -275,8 +275,7 @@ body {
     margin-top: 2em; 
 }
 
-#lightgallery,
-#HCB_comment_box {
+#lightgallery {
     width: 90%;
     margin: 1em auto 3em auto;
 }
@@ -533,12 +532,6 @@ Story page
     #story {
         margin-bottom: 8em;
     }
-    #HCB_comment_box,
-    #hcb_form_name {
-        width: 70%;
-        margin: 0 auto;
-    }
-
 }
 
 @media only screen and (min-width: 1025px) {
@@ -607,15 +600,6 @@ Story page
         background-position: center;
         height: 100vh;
         position: relative;
-    }
-
-    #HCB_comment_box {
-        width: 60%;
-    }
-
-    #comments_list {
-        background-color: #ddd;
-        background-color: rgba(255, 255, 255, 0.5)
     }
 
     #story-hero {
