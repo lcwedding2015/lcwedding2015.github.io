@@ -361,6 +361,9 @@ body {
 	display: none;
 }
 
+#HCB_comment_box_form a {
+	display: none;
+}
 /*******************************************
 Story page
 *******************************************/
