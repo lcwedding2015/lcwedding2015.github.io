@@ -369,6 +369,10 @@ body {
 textarea {
     resize: none;
 }
+blockquote {
+    text-align: left;
+}
+
 #hcb_submit {
     margin: 1em;
 }
