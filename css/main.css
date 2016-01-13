@@ -346,9 +346,7 @@ body {
     display: none;
 }
 
-#hcb_form_email,
-#hcb_form_name,
-#HCB_comment_box textarea {
+#HCB_comment_box {
 	width: 70%;
 	margin: 1em auto;
 }
@@ -361,9 +359,6 @@ body {
 	display: none;
 }
 
-#HCB_comment_box_form a {
-	display: none;
-}
 /*******************************************
 Story page
 *******************************************/
