@@ -348,7 +348,7 @@ body {
 
 #hcb_form_email,
 #hcb_form_name,
-#hcb_form_content {
+#hcb_comment_box {
 	width: 70%;
 	margin: 1em;
 }
