@@ -343,10 +343,11 @@ body {
     margin: 1em auto;
 }
 
-#hcb_form_name {
-    
+#hcb_form_name,
+#hcb_form_email {
+    width: 60%;
+    margin: 1em auto;
 }
-
 
 #HCB_comment_box h3 {
     display: none;
