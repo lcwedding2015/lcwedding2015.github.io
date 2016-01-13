@@ -361,10 +361,6 @@ body {
     display: none;
 }
 
-#hcb_submit {
-    margin-top: 1em;	
-}
-
 ::-webkit-input-placeholder {
  text-transform: capitalize;
 }
