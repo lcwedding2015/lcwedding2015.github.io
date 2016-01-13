@@ -379,6 +379,7 @@ input {
 #hcb_submit {
     margin: 1em;
     padding: 0.5em 1em;
+    border-radius: 2px;
 }
 
 #comments_list {
