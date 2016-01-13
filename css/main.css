@@ -337,6 +337,15 @@ body {
     position: relative;
 }
 
+/* html comment box */
+#HCB_comment_box {
+    width: 100%;
+}
+
+#HCB_comment_box h3 {
+    display: none;
+}
+
 /*******************************************
 Story page
 *******************************************/
