@@ -339,20 +339,21 @@ body {
 
 /* html comment box */
 #HCB_comment_box {
-    width: 100%;
+    width: 96%;
+    margin: 1em auto;
 }
+
+#hcb_form_name {
+    
+}
+
 
 #HCB_comment_box h3 {
     display: none;
 }
 
-#HCB_comment_box {
-	width: 70%;
-	margin: 1em auto;
-}
-
 #guestbook {
-	margin-top: 2em;	
+    margin-top: 2em;	
 }
 
 .hcb-icon {
