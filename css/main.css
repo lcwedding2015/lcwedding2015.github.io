@@ -364,6 +364,19 @@ body {
 #hcb_submit {
     margin-top: 1em;	
 }
+
+::-webkit-input-placeholder {
+ text-transform: capitalize;
+}
+:-moz-placeholder { /* older Firefox*/
+ text-transform: capitalize;
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+  text-transform: capitalize;
+} 
+:-ms-input-placeholder { 
+ text-transform: capitalize;
+}
 /*******************************************
 Story page
 *******************************************/
