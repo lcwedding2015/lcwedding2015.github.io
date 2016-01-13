@@ -370,8 +370,15 @@ textarea {
     resize: none;
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 #hcb_submit {
     margin: 1em;
+    padding: 0.5em 1em;
 }
 
 #comments_list {
