@@ -94,6 +94,7 @@ a,
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
@@ -114,7 +115,8 @@ h2 {
     font-size: 1em;
 }
 
-p {
+p,
+blockquote {
     font-family: 'Lusitana', serif;
 }
 
@@ -275,8 +277,7 @@ body {
     margin-top: 2em; 
 }
 
-#lightgallery,
-#HCB_comment_box {
+#lightgallery {
     width: 90%;
     margin: 1em auto 3em auto;
 }
@@ -338,6 +339,55 @@ body {
     position: relative;
 }
 
+/* html comment box */
+#HCB_comment_box {
+    width: 96%;
+    margin: 1em auto;
+}
+
+#hcb_form_name,
+#hcb_form_email {
+    width: 60%;
+    margin: 1em auto;
+    background-color: transparent; 
+    border-style: solid; 
+    border-width: 0px 0px 1px 0px; 
+    border-color: gray;
+}
+
+#HCB_comment_box h3 {
+    display: none;
+}
+
+#guestbook {
+    margin-top: 2em;	
+}
+
+.hcb-icon {
+    display: none;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: medium none;
+    text-transform: uppercase;
+}
+
+#hcb_submit {
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+}
+
+#comments_list {
+    text-align: left;
+}
 /*******************************************
 Story page
 *******************************************/
@@ -533,12 +583,6 @@ Story page
     #story {
         margin-bottom: 8em;
     }
-    #HCB_comment_box,
-    #hcb_form_name {
-        width: 70%;
-        margin: 0 auto;
-    }
-
 }
 
 @media only screen and (min-width: 1025px) {
@@ -607,15 +651,6 @@ Story page
         background-position: center;
         height: 100vh;
         position: relative;
-    }
-
-    #HCB_comment_box {
-        width: 60%;
-    }
-
-    #comments_list {
-        background-color: #ddd;
-        background-color: rgba(255, 255, 255, 0.5)
     }
 
     #story-hero {
