@@ -348,8 +348,7 @@ body {
     margin: 1em auto;
 }
 
-#hcb_form_name,
-#hcb_form_email {
+#hcb_form_name {
     width: 60%;
     margin: 1em auto;
     background-color: transparent; 
@@ -386,10 +385,6 @@ input {
     margin: 1em;
     padding: 0.5em 1em;
     border-radius: 2px;
-}
-
-#comments_list {
-    text-align: left;
 }
 
 .comments {
