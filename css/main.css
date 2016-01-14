@@ -319,6 +319,10 @@ body {
     display: none;
 }
 
+.comment-wrapper {
+    width: 90%;
+}
+
 #guestbook {
     margin-top: 2em;	
 }
