@@ -340,7 +340,6 @@ input {
     -moz-appearance: none;
     appearance: none;
     border: medium none;
-    text-transform: uppercase;
 }
 
 #hcb_submit {
