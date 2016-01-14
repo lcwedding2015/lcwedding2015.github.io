@@ -125,49 +125,14 @@ body {
     padding: 0;
 }
 
+.container {
+    width: 90%;
+}
+
 #title {
     margin: 2em auto 0;
     text-align: center;
 }
-
-#secondary-nav {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    background-color: #333;
-    padding: 0.25em 0;
-}
-
-#secondary-nav a,
-#secondary-nav a:visited {
-    color: white;
-}
-
-#secondary-nav li {
-    display: inline-block;
-    color: white;
-    margin: 0;
-    padding: 0.25em 0.5em;
-    font-size: 0.75em;
-}
-
-#secondary-nav li:nth-child(2) {
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-}
-
-/*#secondary-nav a:hover {
-    color: gray;
-}*/
-
-/*a:hover {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}*/
 
 .mobile-img {
     width: 100%;
@@ -239,12 +204,10 @@ body {
 }
 
 .wedding-party {
-    width: 80%;
     margin: 0 auto;
 }
 
 .wedding-party p {
-    width: 80%;
     margin-right: auto;
     margin-left: auto;
     color: #8c8b8b;
@@ -256,7 +219,7 @@ body {
 }
 
 #wedding-text {
-    width: 70%;
+    /*width: 70%;*/
     margin: 2em auto 0 auto;
     line-height: 1.5em;
 }
@@ -270,7 +233,7 @@ body {
 }
 
 #lightgallery {
-    width: 90%;
+    /*width: 90%;*/
     margin: 1em auto 3em auto;
 }
 
@@ -299,7 +262,7 @@ body {
 
 #hash4 img {
     margin-top: 15px;
-    width: 50% !important;
+    width: 60% !important;
 }
 
 #wedding-nav {
@@ -332,8 +295,12 @@ body {
 }
 
 /* html comment box */
+.comments {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
 #HCB_comment_box {
-    width: 96%;
     margin: 1em auto;
 }
 
@@ -376,10 +343,6 @@ input {
     border-radius: 2px;
 }
 
-.comments {
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.7);
-}
 /*******************************************
 Story page
 *******************************************/
@@ -447,8 +410,6 @@ Story page
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
-
-
     h1.one {
     margin-top: 0;
     }
