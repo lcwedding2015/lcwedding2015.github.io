@@ -524,7 +524,7 @@ Story page
     }
 
     #wedding-intro {
-        margin: 6em auto;
+        /*margin: 4em auto;*/
         display: inline-block;
     }
 
@@ -681,9 +681,9 @@ Story page
     width: 60%;
     }
 
-    #wedding-intro {
+/*    #wedding-intro {
         margin: 6em auto;
-    }
+    }*/
 
     #invite {
         display: inline-block;
