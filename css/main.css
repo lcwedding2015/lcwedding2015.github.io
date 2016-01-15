@@ -301,7 +301,7 @@ body {
 }
 
 #hcb_form_name {
-    width: 60%;
+    width: 100%;
     margin: 1em auto;
     background-color: transparent; 
     border-style: solid; 
@@ -316,8 +316,8 @@ body {
 .comment-wrapper {
     width: 90%;
     margin: 0 auto;
-    padding: 2em;
     border-radius: 3px;
+    background-color: #fff;
 }
 
 #guestbook {
