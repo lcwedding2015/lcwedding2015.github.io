@@ -4,7 +4,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-}
+}gu
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -571,6 +571,10 @@ Story page
     
     .comments {
         padding-bottom: 6em;
+    }
+    
+    #guestbook {
+        width: 100%;
     }
     
     .comment-wrapper {
