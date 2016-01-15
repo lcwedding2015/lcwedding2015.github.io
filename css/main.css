@@ -587,10 +587,6 @@ Story page
        font-size: 1.25em;
     }
 
-    .col {
-        width: 50%;
-    }
-
     #kiss,
     .comments {
         background-image: url(../img/gall/91.jpg);
