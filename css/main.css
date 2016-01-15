@@ -203,7 +203,6 @@ body {
 #intro-container {
 
 }
-
 .wedding-party {
     margin: 0 auto;
 }
@@ -225,11 +224,11 @@ body {
 }
 
 #invite {
-    width: 40%;
-    padding: 1em;
+    padding: 0.5em;
     border: 1px solid #ccc;
     border-radius: 1px;
-    margin-top: 2em; 
+    margin: 2em auto;
+    
 }
 
 #lightgallery {
