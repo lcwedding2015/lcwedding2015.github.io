@@ -221,7 +221,6 @@ body {
 }
 
 #wedding-text {
-    /*width: 70%;*/
     margin: 2em auto 0 auto;
     line-height: 1.5em;
 }
@@ -498,7 +497,6 @@ Story page
     }
 
     #wedding-text {
-        display: inline-block;
         font-size: 1em;
         width: 40%;
         margin-right: 4em;
@@ -648,10 +646,6 @@ Story page
     width: 60%;
     }
 
-/*    #wedding-intro {
-        margin: 6em auto;
-    }*/
-
     #invite {
         display: inline-block;
         width: 20%;
@@ -660,7 +654,6 @@ Story page
     }
 
     #wedding-text {
-        display: inline-block;
         font-size: 1.25em;
     }
 }
