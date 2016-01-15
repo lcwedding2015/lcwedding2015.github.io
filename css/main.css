@@ -5,7 +5,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }gu
-
+i
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -229,7 +229,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 1px;
     margin: 2em auto;
-    width: 100%;
+    width: 90%;
 }
 
 #lightgallery {
