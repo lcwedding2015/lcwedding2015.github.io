@@ -317,6 +317,7 @@ body {
 .comment-wrapper {
     width: 90%;
     margin: 0 auto;
+    padding-top: 2em;
     border-radius: 3px;
     background-color: #fff;
 }
