@@ -604,7 +604,8 @@ Story page
     }
     
     .comment-wrapper {
-        padding: 3em;
+        padding: 4em;
+        margin-bottom: 6em;
     }
     
     #kiss {
