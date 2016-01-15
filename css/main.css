@@ -435,6 +435,7 @@ Story page
       }
   
   h1.one span {
+    background: #fff;
     padding: 0 20px;
     position: relative;
     z-index: 5;
