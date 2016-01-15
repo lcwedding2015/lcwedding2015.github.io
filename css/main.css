@@ -51,6 +51,7 @@ fieldset {
 
 textarea {
     resize: vertical;
+    border-radius: 1px;
 }
 
 .browserupgrade {
