@@ -90,7 +90,6 @@ a {
 }
 
 h1 {
-    width: 96%;
     margin: 0 auto;
     color: #8c8b8b;
     position: relative;  
@@ -300,7 +299,6 @@ body {
 .comments {
     background-color: white;
     background-color: rgba(255, 255, 255, 0.7);
-    margin: 0 auto;
 }
 
 #HCB_comment_box {
@@ -322,6 +320,7 @@ body {
 
 .comment-wrapper {
     width: 90%;
+    margin: 0 auto;
 }
 
 #guestbook {
@@ -545,18 +544,12 @@ Story page
 }
 
 @media only screen and (min-width: 1025px) {
-
-    h1 {
-        width: 85%;
-    }
-
     #landing img{
         width: 85%;
         margin-top: 1.5em;
         margin-bottom: 1.5em; 
     }
-
-
+    
     #lightgallery {
         width: 70%;
         margin: 2em auto 6em auto;
@@ -564,11 +557,6 @@ Story page
 
     #lightgallery img {
         width: 150px;
-    /*    height: auto;
-        margin-top: 15px;
-        margin-right: 10px;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);*/
     }
 
     #secondary-nav {
