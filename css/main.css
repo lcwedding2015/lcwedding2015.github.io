@@ -585,7 +585,7 @@ Story page
     }
 
     #kiss,
-    #comments{
+    .comments {
         background-image: url(../img/gall/91.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
