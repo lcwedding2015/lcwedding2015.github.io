@@ -291,10 +291,6 @@ body {
     color: gray;
 }
 
-#kiss {
-    position: relative;
-}
-
 /* html comment box */
 .comments {
     background-color: white;
