@@ -603,6 +603,10 @@ Story page
         background-position: center;
     }
     
+    .comments {
+        padding-bottom: 6em;
+    }
+    
     .comment-wrapper {
         padding: 4em;
         margin-bottom: 6em;
