@@ -595,6 +595,10 @@ Story page
         background-attachment: fixed;
         background-position: center;
     }
+    
+    #kiss {
+        height: 100vh;
+    }
 
     #story-hero {
         background-image: url(../img/engage1.jpg);
