@@ -490,7 +490,6 @@ Story page
     }
 
     #invite {
-        display: inline-block;
         width: 20%;
         border-radius: 1px;
         vertical-align: top;
@@ -648,7 +647,6 @@ Story page
     }
 
     #invite {
-        display: inline-block;
         width: 20%;
         border-radius: 1px;
         vertical-align: top;
