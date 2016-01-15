@@ -317,6 +317,7 @@ body {
 .comment-wrapper {
     width: 90%;
     margin: 0 auto;
+    background-color: white;
     background-color: rgba(255,255,255,.74);
     padding: 2em;
     border-radius: 3px;
@@ -324,6 +325,8 @@ body {
 
 #guestbook {
     text-align: center;
+    background-color: white;
+    background-color: rgba(255,255,255,.74);
 }
 
 .hcb-icon {
@@ -358,7 +361,7 @@ Story page
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
+    left: 0;comme
     right: 0;
 }
 
