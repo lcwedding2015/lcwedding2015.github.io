@@ -469,7 +469,6 @@ Story page
     #invite {
         width: 20%;
         border-radius: 1px;
-        vertical-align: top;
     }
 
     #wedding-text {
@@ -620,9 +619,6 @@ Story page
     }
 
     #invite {
-        width: 20%;
-        border-radius: 1px;
-        vertical-align: top;
     }
 
     #wedding-text {
