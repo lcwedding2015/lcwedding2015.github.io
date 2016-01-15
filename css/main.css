@@ -584,7 +584,8 @@ Story page
        font-size: 1.25em;
     }
 
-    #kiss {
+    #kiss,
+    #comments{
         background-image: url(../img/gall/91.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -593,8 +594,6 @@ Story page
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        height: 100vh;
-        position: relative;
     }
 
     #story-hero {
