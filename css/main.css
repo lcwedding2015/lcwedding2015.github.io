@@ -291,7 +291,7 @@ body {
     color: gray;
 }
 
-/* html comment box */
+/* html wrapper box */
 .comments {
     background-color: white;
     background-color: rgba(255, 255, 255, 0.7);
@@ -317,10 +317,12 @@ body {
 .comment-wrapper {
     width: 90%;
     margin: 0 auto;
+    background-color: rgba(255,255,255,.74);
+    padding: 2em;
+    border-radius: 3px;
 }
 
 #guestbook {
-    margin-top: 2em;
     text-align: center;
 }
 
