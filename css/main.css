@@ -600,7 +600,7 @@ Story page
     }
     
     .two {
-        background-color: none;
+        background-color: none !important;
     }
     
     #kiss {
