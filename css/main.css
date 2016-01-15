@@ -435,7 +435,6 @@ Story page
       }
   
   h1.one span {
-    background: #fff;
     padding: 0 20px;
     position: relative;
     z-index: 5;
@@ -597,10 +596,6 @@ Story page
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-    }
-    
-    .two {
-        background-color: none !important;
     }
     
     #kiss {
