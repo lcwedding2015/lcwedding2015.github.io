@@ -197,12 +197,11 @@ body {
 }
 
 #wedding-intro {
-    margin: 3em auto;
+
 }
 
 #intro-container {
-    /*margin: 4em auto 0 auto;*/
-    width: 100%;
+
 }
 
 .wedding-party {
@@ -267,29 +266,9 @@ body {
     width: 60% !important;
 }
 
-#wedding-nav {
-    margin: 2em 0;
-    text-align: center;
-}
-
 .wedding-section,
 .wedding-video {
     margin-top: 2em;
-}
-
-#wedding-nav li {
-    display: inline-block;
-    padding: 0.5em 1em;
-}
-
-#wedding-nav li:nth-child(2) {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-}
-
-#wedding-nav a,
-#wedding-nav a:visited {
-    color: gray;
 }
 
 /* html wrapper box */
@@ -495,9 +474,6 @@ Story page
 
     #wedding-text {
         font-size: 1em;
-        width: 40%;
-        margin-right: 4em;
-        margin-top: 2em;
         line-height: 2em;
     }
 
@@ -580,7 +556,6 @@ Story page
 
     #wedding-text {
        font-size: 1.25em;
-       text-align: left;
     }
 
     #kiss,
