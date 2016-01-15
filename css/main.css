@@ -325,8 +325,6 @@ body {
 
 #guestbook {
     text-align: center;
-    background-color: white;
-    background-color: rgba(255,255,255,.74);
 }
 
 .hcb-icon {
@@ -599,6 +597,10 @@ Story page
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
+    }
+    
+    .two {
+        background-color: none;
     }
     
     #kiss {
