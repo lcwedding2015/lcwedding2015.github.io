@@ -480,7 +480,7 @@ Story page
     }
 
     #intro-container {
-        margin: 3em auto 0 auto;
+        /*margin: 3em auto 0 auto;*/
         width: 94%;
     }
 
@@ -642,7 +642,7 @@ Story page
     }
 
     #intro-container {
-    margin: 4em auto 0 auto;
+    /*margin: 4em auto 0 auto;*/
     width: 60%;
     }
 
