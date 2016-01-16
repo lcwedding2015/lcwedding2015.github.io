@@ -285,11 +285,11 @@ body {
 /* html wrapper box */
 .comments {
     background-color: white;
-    margin-bottom: 2em;
+    margin-bottom: 8em;
 }
 
 #HCB_comment_box {
-    margin: 1em auto;
+    margin: 3em auto;
     font-family: 'Raleway', sans-serif;
 }
 
