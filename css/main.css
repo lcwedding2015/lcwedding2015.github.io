@@ -418,12 +418,6 @@ Story page
         margin-left: auto;
         margin-right: auto;
     }
-
-    .wedding-section,
-    .wedding-video {
-        margin-top: 3em;
-    }
-
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -467,7 +461,7 @@ Story page
 
     .wedding-section,
     .wedding-video {
-        margin-top: 4em;
+        /*margin-top: 3em;*/
     }
 
     .comment-wrapper {
