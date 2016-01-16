@@ -453,13 +453,6 @@ Story page
         width: 60%;
     }
 
-    #wedding-intro {
-    }
-
-    #invite {
-
-    }
-
     #wedding-text {
         font-size: 1em;
         line-height: 2em;
@@ -538,7 +531,7 @@ Story page
     }
 
     #intro-container {
-        width: 80%;
+        width: 40%;
     }
 
     #wedding-text {
