@@ -621,6 +621,11 @@ Story page
      #landing {
         height: 100vh;
     }
+    
+    #intro-container {
+    /*margin: 4em auto 0 auto;*/
+        width: 30%;
+    }
 }
 
 @media only screen and (min-width: 1660px) {
