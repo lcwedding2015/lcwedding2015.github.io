@@ -115,7 +115,7 @@ h1 {
   
   h1.one span {
     background: #fff;
-    padding: 0 20px;
+    padding: 0 10px;
     position: relative;
     z-index: 5;
   }
@@ -413,7 +413,10 @@ Story page
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
-  .wedding-party {
+    h1.one span {
+        padding: 0 20px;
+  }
+    .wedding-party {
         width: 37%;
         display: inline-block;
     }
