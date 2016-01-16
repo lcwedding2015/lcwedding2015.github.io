@@ -449,16 +449,15 @@ Story page
     }
 
     #intro-container {
-        /*margin: 3em auto 0 auto;*/
-        width: 94%;
+        margin: 1em auto 0 auto;
+        width: 60%;
     }
 
     #wedding-intro {
     }
 
     #invite {
-        width: 20%;
-        border-radius: 1px;
+
     }
 
     #wedding-text {
