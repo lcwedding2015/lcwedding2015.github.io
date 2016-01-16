@@ -498,6 +498,7 @@ Story page
 
 @media only screen and (min-width: 1025px) {
     h1,
+    .title,
     #landing img{
         width: 85%;
         margin-bottom: 1.5em; 
@@ -625,7 +626,8 @@ Story page
 
 @media only screen and (min-width: 1480px) {
     #landing img,
-    h1 {
+    h1,
+    .title {
         width: 75%;
     }
      #landing {
