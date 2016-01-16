@@ -252,7 +252,7 @@ body {
 #lightgallery img {
     width: 75px;
     height: auto;
-    margin-top: 15px;
+    margin-bottom: 15px;
     margin-right: 5px;
     margin-left: 5px;
     -webkit-transform: translateZ(0);
