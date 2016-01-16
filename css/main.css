@@ -286,6 +286,7 @@ body {
 /* html wrapper box */
 .comments {
     background-color: white;
+    margin-bottom: 2em;
 }
 
 #HCB_comment_box {
