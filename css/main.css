@@ -272,7 +272,7 @@ body {
     transition: all 0.5s ease;
 }
 
-#hash4 {
+# {
     margin-bottom: 3em;
 }
 
@@ -538,6 +538,10 @@ Story page
        font-size: 1.25em;
     }
 
+    #hash4 img {
+        width: 40%;
+    }
+    
     #kiss,
     .comments {
         background-image: url(../img/gall/91.jpg);
