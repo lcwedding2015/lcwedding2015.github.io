@@ -129,8 +129,7 @@ h2 {
     font-size: 1em;
 }
 
-p,
-blockquote {
+p {
     font-family: 'Lusitana', serif;
 }
 
@@ -291,6 +290,7 @@ body {
 
 #HCB_comment_box {
     margin: 1em auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 #hcb_form_name {
@@ -337,6 +337,10 @@ input {
     margin: 1em;
     padding: 0.5em 1em;
     border-radius: 2px;
+}
+
+blockquote {
+    font-family: 'Lusitana', serif;
 }
 
 /*******************************************
