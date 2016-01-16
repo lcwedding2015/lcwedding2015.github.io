@@ -550,6 +550,10 @@ Story page
         background-position: center;
     }
     
+    .hide {
+        display: none;
+    }
+    
     .comments {
         padding-bottom: 6em;
     }
