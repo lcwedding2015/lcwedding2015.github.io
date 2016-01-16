@@ -556,6 +556,7 @@ Story page
     
     .comments {
         padding-bottom: 6em;
+        margin-bottom: 0;
     }
     
     #guestbook {
