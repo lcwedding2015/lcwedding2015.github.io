@@ -615,6 +615,10 @@ Story page
     #wedding-text {
         font-size: 1.25em;
     }
+    
+    .comment-wrapper {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 1480px) {
