@@ -91,7 +91,7 @@ a {
 }
 
 h1 {
-    margin: 2em auto;
+    margin: 1.5em auto;
     color: #8c8b8b;
     position: relative;  
     font-weight: 300;
@@ -115,7 +115,7 @@ h1 {
   
   h1.one span {
     background: #fff;
-    padding: 0 10px;
+    padding: 0 5px;
     position: relative;
     z-index: 5;
   }
