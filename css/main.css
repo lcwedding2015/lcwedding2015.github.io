@@ -163,6 +163,10 @@ body {
     text-align: center;
 }
 
+.title {
+    width: 90%;
+}
+
 #landing-content {
     display: table-cell;
     vertical-align: middle;
