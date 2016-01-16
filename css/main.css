@@ -172,12 +172,10 @@ body {
 #landing-content {
     display: table-cell;
     vertical-align: middle;
-    padding-top: 1em;
 }
 
 #landing img{
     width: 100%;
-    margin-top: 1em; 
 }
 
 #nav {
