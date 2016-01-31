@@ -287,7 +287,8 @@ body {
 }
 
 /* html wrapper box */
-.comments {
+.comments,
+.upload {
     background-color: white;
     margin-bottom: 4em;
 }
@@ -310,7 +311,7 @@ body {
     display: none;
 }
 
-.comment-wrapper {
+.wrapper {
     width: 90%;
     margin: 0 auto;
     /*padding-top: 2em;*/
@@ -465,7 +466,7 @@ Story page
         /*margin-top: 3em;*/
     }
 
-    .comment-wrapper {
+    .wrapper {
         width: 60%;
     }
 
@@ -558,11 +559,23 @@ Story page
         background-position: center;
     }
     
+    .upload {
+        background-image: url(../img/gall/66.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
     .hide {
         display: none;
     }
     
-    .comments {
+    .comments,
+    .upload {
         padding-bottom: 6em;
         margin-bottom: 0;
     }
@@ -571,7 +584,7 @@ Story page
         width: 100%;
     }
     
-    .comment-wrapper {
+    .wrapper {
         padding: 0.25em 4em;
         margin-bottom: 6em;
     }
@@ -620,7 +633,7 @@ Story page
         font-size: 1.25em;
     }
     
-    .comment-wrapper {
+    .wrapper {
         width: 50%;
     }
 }
