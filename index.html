@@ -341,10 +341,10 @@
             </div> <!-- end wedding-video -->
         </div> <!-- end lightgallery -->
     </div> <!-- end wedding -->
-    <div id="kiss guestbook">
+    <div id="kiss">
         <img class="mobile-img" src="img/mobile/kiss.jpg" Alt="Liz and Chris">
     </div> <!-- end kiss -->
-    <div class="comments">
+    <div class="comments" id="guestbook">
         <div class="wrapper">
             <h1 id="guestbook-h1" class="one"><span>GUESTBOOK</span></h1>
             <!-- begin wwww.htmlcommentbox.com -->
@@ -457,7 +457,7 @@ uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
         });
     </script>
     <!-- Smooth scrolling script from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
-    <script>
+    <!--<script>
         $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -472,7 +472,11 @@ uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
             }
           });
         });
-    </script>
+    </script> -->
+    <script>$('html, body').animate({
+    scrollTop: $("#guestbook").offset().top
+}, 1000);</script>
+    
     <script>        
     // Create a clone of the menu, right next to original.
     $('#nav').addClass('original').clone().insertAfter('#nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
