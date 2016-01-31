@@ -15,15 +15,6 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-/*
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}*/
 
 hr {
   border: 0; 
@@ -60,6 +51,7 @@ fieldset {
 
 textarea {
     resize: vertical;
+    border-radius: 1px;
 }
 
 .browserupgrade {
@@ -69,11 +61,9 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
-
 
 /* ===============
     ALL: IE Fixes
@@ -94,29 +84,53 @@ a,
 h1,
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+}
+
+a {
+    font-weight: 300;
 }
 
 h1 {
-    width: 96%;
-    margin: 0 auto;
+    margin: 1.5em auto;
     color: #8c8b8b;
     position: relative;  
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1em;
+    text-align: center;
 }
+
+    h1.one:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        border: 0; 
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+      }
+  
+  h1.one span {
+    background: #fff;
+    padding: 0 5px;
+    position: relative;
+    z-index: 5;
+  }
 
 h2 {
     /*width: 96%;*/
-    margin: 0 auto;
+    margin: 1.25em auto 1em auto;
     color: #8c8b8b;
     position: relative;  
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1em;
 }
 
-p,
-blockquote {
+p {
     font-family: 'Lusitana', serif;
 }
 
@@ -133,49 +147,10 @@ body {
     padding: 0;
 }
 
-#title {
-    margin: 2em auto 0;
-    text-align: center;
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
-
-#secondary-nav {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-    background-color: #333;
-    padding: 0.25em 0;
-}
-
-#secondary-nav a,
-#secondary-nav a:visited {
-    color: white;
-}
-
-#secondary-nav li {
-    display: inline-block;
-    color: white;
-    margin: 0;
-    padding: 0.25em 0.5em;
-    font-size: 0.75em;
-}
-
-#secondary-nav li:nth-child(2) {
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-}
-
-/*#secondary-nav a:hover {
-    color: gray;
-}*/
-
-/*a:hover {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}*/
 
 .mobile-img {
     width: 100%;
@@ -189,15 +164,17 @@ body {
     text-align: center;
 }
 
+.title {
+    width: 90%;
+}
+
 #landing-content {
     display: table-cell;
     vertical-align: middle;
-    padding-top: 1em;
 }
 
 #landing img{
     width: 100%;
-    margin-top: 1em; 
 }
 
 #nav {
@@ -205,8 +182,10 @@ body {
     margin: 0 auto;
     position: relative;
     width: 100%;
-    background-color: rgba(255,255,255,0.7);
-    padding: 1em 0;
+    background-color: white;
+    background-color: rgba(255,255,255,0.9);
+    padding: 0.75em 0;
+    z-index: 999;
 }
 
 #nav a,
@@ -238,21 +217,15 @@ body {
 }
 
 #wedding-intro {
-    margin: 3em auto;
-}
-
-#intro-container {
-    /*margin: 4em auto 0 auto;*/
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .wedding-party {
-    width: 80%;
     margin: 0 auto;
 }
 
 .wedding-party p {
-    width: 80%;
     margin-right: auto;
     margin-left: auto;
     color: #8c8b8b;
@@ -260,33 +233,33 @@ body {
 
 .wedding-party img {
     width: 100%;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 }
 
 #wedding-text {
-    width: 70%;
-    margin: 2em auto 0 auto;
+    margin: 0 auto;
     line-height: 1.5em;
 }
 
 #invite {
-    width: 40%;
-    padding: 1em;
+    padding: 0.5em;
     border: 1px solid #ccc;
     border-radius: 1px;
-    margin-top: 2em; 
+    margin: 2em auto;
+    width: 90%;
 }
 
 #lightgallery {
-    width: 90%;
+    /*width: 90%;*/
     margin: 1em auto 3em auto;
 }
 
 #lightgallery img {
     width: 75px;
     height: auto;
-    margin-top: 15px;
-    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
@@ -301,53 +274,32 @@ body {
     transition: all 0.5s ease;
 }
 
-#hash4 {
+# {
     margin-bottom: 3em;
 }
 
 #hash4 img {
-    margin-top: 15px;
-    width: 50% !important;
+    width: 60%;
 }
 
-#wedding-nav {
-    margin: 2em 0;
-    text-align: center;
-}
-
-.wedding-section,
 .wedding-video {
     margin-top: 2em;
 }
 
-#wedding-nav li {
-    display: inline-block;
-    padding: 0.5em 1em;
+/* html wrapper box */
+.comments,
+.upload {
+    background-color: white;
+    margin-bottom: 4em;
 }
 
-#wedding-nav li:nth-child(2) {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-}
-
-#wedding-nav a,
-#wedding-nav a:visited {
-    color: gray;
-}
-
-#kiss {
-    position: relative;
-}
-
-/* html comment box */
 #HCB_comment_box {
-    width: 96%;
-    margin: 1em auto;
+    margin: 1em auto 0;
+    font-family: 'Raleway', sans-serif;
 }
 
-#hcb_form_name,
-#hcb_form_email {
-    width: 60%;
+#hcb_form_name {
+    width: 100%;
     margin: 1em auto;
     background-color: transparent; 
     border-style: solid; 
@@ -359,8 +311,16 @@ body {
     display: none;
 }
 
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    /*padding-top: 2em;*/
+    border-radius: 3px;
+    background-color: #fff;
+}
+
 #guestbook {
-    margin-top: 2em;	
+    text-align: center;
 }
 
 .hcb-icon {
@@ -376,7 +336,6 @@ input {
     -moz-appearance: none;
     appearance: none;
     border: medium none;
-    text-transform: uppercase;
 }
 
 #hcb_submit {
@@ -385,9 +344,10 @@ input {
     border-radius: 2px;
 }
 
-#comments_list {
-    text-align: left;
+blockquote {
+    font-family: 'Lusitana', serif;
 }
+
 /*******************************************
 Story page
 *******************************************/
@@ -399,7 +359,7 @@ Story page
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 0;
+    left: 0;comme
     right: 0;
 }
 
@@ -455,36 +415,11 @@ Story page
    ========================================================================== */
 
 @media only screen and (min-width: 480px) {
-
-
-    h1.one {
-    margin-top: 0;
-    }
-
-    h1.one:before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 1px;
-        position: absolute;
-        top: 50%;
-        z-index: 1;
-        border: 0; 
-        background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-        background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-        background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-        background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-      }
-  
-  h1.one span {
-    background: #fff;
-    padding: 0 20px;
-    position: relative;
-    z-index: 5;
+    h1.one span {
+        padding: 0 20px;
   }
-
-  .wedding-party {
-        width: 46%;
+    .wedding-party {
+        width: 37%;
         display: inline-block;
     }
 
@@ -493,12 +428,6 @@ Story page
         margin-left: auto;
         margin-right: auto;
     }
-
-    .wedding-section,
-    .wedding-video {
-        margin-top: 3em;
-    }
-
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -522,43 +451,27 @@ Story page
         font-size: 1.25em;
     }
 
-    #landing-content {
-        padding-top: 2em;
-    }
-
     #intro-container {
-        margin: 3em auto 0 auto;
-        width: 94%;
-    }
-
-    #wedding-intro {
-        margin: 6em auto;
-        display: inline-block;
-    }
-
-    #invite {
-        display: inline-block;
-        width: 20%;
-        border-radius: 1px;
-        vertical-align: top;
+        margin: 1em auto 0 auto;
+        width: 60%;
     }
 
     #wedding-text {
-        display: inline-block;
         font-size: 1em;
-        width: 40%;
-        margin-right: 4em;
-        margin-top: 2em;
         line-height: 2em;
     }
 
     .wedding-section,
     .wedding-video {
-        margin-top: 4em;
+        /*margin-top: 3em;*/
+    }
+
+    .wrapper {
+        width: 60%;
     }
 
     .story-section {
-        margin-top: 4em;
+        margin: 3em auto;
     }
 
     #story p {
@@ -586,30 +499,20 @@ Story page
 }
 
 @media only screen and (min-width: 1025px) {
-
-    h1 {
-        width: 85%;
-    }
-
+    h1,
+    .title,
     #landing img{
         width: 85%;
-        margin-top: 1.5em;
         margin-bottom: 1.5em; 
     }
-
-
+    
     #lightgallery {
         width: 70%;
-        margin: 2em auto 6em auto;
+        margin: 1em auto 6em auto;
     }
 
     #lightgallery img {
         width: 150px;
-    /*    height: auto;
-        margin-top: 15px;
-        margin-right: 10px;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);*/
     }
 
     #secondary-nav {
@@ -633,14 +536,19 @@ Story page
     }
 
     #intro-container {
-        width: 80%;
+        width: 40%;
     }
 
     #wedding-text {
        font-size: 1.25em;
     }
 
-    #kiss {
+    #hash4 img {
+        width: 40%;
+    }
+    
+    #kiss,
+    .comments {
         background-image: url(../img/gall/91.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -649,8 +557,40 @@ Story page
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
-        height: 100vh;
-        position: relative;
+    }
+    
+    .upload {
+        background-image: url(../img/gall/66.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    .comments,
+    .upload {
+        padding-bottom: 6em;
+        margin-bottom: 0;
+    }
+    
+    #guestbook {
+        width: 100%;
+    }
+    
+    .wrapper {
+        padding: 0.25em 4em;
+        margin-bottom: 6em;
+    }
+    
+    #kiss {
+        height: 20vh;
     }
 
     #story-hero {
@@ -685,30 +625,23 @@ Story page
     }
 
     #intro-container {
-    margin: 4em auto 0 auto;
-    width: 60%;
+    /*margin: 4em auto 0 auto;*/
+        width: 30%;
     }
-
-    #wedding-intro {
-        margin: 6em auto;
-    }
-
-    #invite {
-        display: inline-block;
-        width: 20%;
-        border-radius: 1px;
-        vertical-align: top;
-    }
-
+    
     #wedding-text {
-        display: inline-block;
         font-size: 1.25em;
+    }
+    
+    .wrapper {
+        width: 50%;
     }
 }
 
 @media only screen and (min-width: 1480px) {
     #landing img,
-    h1 {
+    h1,
+    .title {
         width: 75%;
     }
      #landing {
@@ -719,7 +652,7 @@ Story page
 @media only screen and (min-width: 1660px) {
     #landing img,
     h1 {
-        width: 70%;
+        /*width: 70%;*/
     }
 }
 
