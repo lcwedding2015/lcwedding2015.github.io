@@ -344,6 +344,11 @@ blockquote {
     font-family: 'Lusitana', serif;
 }
 
+#uploadarea p {
+    font-family: Raleway, sans-serif;
+    font-variant: normal;
+}
+
 /*******************************************
 Story page
 *******************************************/
