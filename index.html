@@ -457,11 +457,12 @@ uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
         });
     </script>
     <!-- Smooth scrolling script from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
-    <!--<script>
+    <script>
         $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
               var target = $(this.hash);
+              console.log(target);
               target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
               if (target.length) {
                 $('html,body').animate({
@@ -472,11 +473,8 @@ uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
             }
           });
         });
-    </script> -->
-    <script>$('html, body').animate({
-    scrollTop: $("#guestbook").offset().top
-}, 1000);</script>
-    
+    </script>
+
     <script>        
     // Create a clone of the menu, right next to original.
     $('#nav').addClass('original').clone().insertAfter('#nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
