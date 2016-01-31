@@ -319,10 +319,6 @@ body {
     background-color: #fff;
 }
 
-#guestbook {
-    text-align: center;
-}
-
 .hcb-icon {
     display: none;
 }
@@ -581,7 +577,8 @@ Story page
         margin-bottom: 0;
     }
     
-    #guestbook {
+    #guestbook-h1,
+    #upload-h1 {
         width: 100%;
     }
     
