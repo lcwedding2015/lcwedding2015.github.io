@@ -350,6 +350,10 @@ blockquote {
     font-variant: normal !important;
 }
 
+.upload > .wrapper > p > a {
+    color: #333;
+}
+
 /*******************************************
 Story page
 *******************************************/
