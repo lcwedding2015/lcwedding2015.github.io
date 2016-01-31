@@ -298,7 +298,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-#hcb_form_name {
+#hcb_form_name,
+#uploader_name {
     width: 100%;
     margin: 1em auto;
     background-color: transparent; 
