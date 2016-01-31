@@ -370,54 +370,76 @@
 '&'+'#'+'4'+'8'+';'+'1'+'5'+'&'+'#'+'6'+'4'+';'+'y'+'&'+'#'+'9'+'7'+';'+'h'+'o'+'o'+'&'+'#'+'4'+'6'+
 ';'+'&'+'#'+'9'+'9'+';'+'o'+'m'+'<'+'/'+'a'+'>');</script><noscript>[Turn on JavaScript to see the email address]</noscript></p>
             <script src="http://49video.resources.s3.amazonaws.com/uploadthingy.js" type="text/javascript" language="Javascript"></script>
-            <iframe id="uploadtarget" name="uploadtarget" src="" style="width:0px;height:0px;border:0"></iframe>
-            <div id='uploadarea'><p><img src=http://49video.resources.s3.amazonaws.com/loading.gif width=16 height=16>  Loading <a href=http://www.uploadthingy.com>Uploadthingy file upload form</a>... <br><br>If your upload form doesn't display within a few seconds, please check the <a href=http://www.uploadthingy.com/faq.html>FAQ</a> or contact us at hello@uploadthingy.com. We'd love to help out!</p></div>
-            <script type="text/javascript" language="Javascript">
-                var sitecode="bGN3ZWRkaW5nLmdpdGh1Yi5pbw==";
-                authupload();
-                function getUploadForm(json) {
-                showblinks=false;
-                var h="";
-                h+="<input type='text' style='width:100%;' id='uploader_name' name='uploader_name' placeholder='Name'></p>";
-                h+="<p>Files<br>";
-                h+="<input type='file' size='40' class="upload-link" id='uploadfile0' name='file0'><br>";
-                h+="<input type='file' size='40' class="upload-link" id='uploadfile1' name='file1'><br>";
-                h+="<input type='file' size='40' class="upload-link" id='uploadfile2' name='file2'><br>";
-                h+="<input type='file' size='40' class="upload-link" id='uploadfile3' name='file3'><br>";
-                h+="<input type='file' size='40' class="upload-link" id='uploadfile4' name='file4'><br>";
-                h+="</p>";
-                h+="<input type='hidden' id='authcode' name='authcode' value='"+json.c+"'>";
-                h+="<input type='hidden' id='uploadid' name='id' value='widget$"+json.d+"$"+json.c.substring(0,json.c.indexOf("_"))+"'>";
-                h+="<input type='hidden' id='callbackurl' name='callbackurl' value='"+baseserverurl+"'>";
-                h+="<input type='hidden' name='savemeta' value='yes'>";
-                h+="<p><input class='widget_button' id='49widget_submitbutton' type='button' onclick='doUpload();' name='suploadvideo' value='Upload'></p>";
-                return h;
-                }
-                function doUpload() { if (checkform()) { upload('start'); } }
-                function checkform() { 
-                var found=false;
-                var cnt=0;
-                while (document.getElementById('uploadfile'+cnt)) {
-                if (document.getElementById('uploadfile'+cnt).value.length>0) {
-                found=true;
-                break;
-                }
-                cnt++;
-                }
-                if (!found) {
-                alert('Please select at least one file to upload.');
-                return false;
-                }
-                uploadmetadata=new Array();
-                uploadmetadata['name']=document.getElementById('uploader_name').value;
-                uploadmetadata['uploadfile0']=document.getElementById('uploadfile0').value;
-                uploadmetadata['uploadfile1']=document.getElementById('uploadfile1').value;
-                uploadmetadata['uploadfile2']=document.getElementById('uploadfile2').value;
-                uploadmetadata['uploadfile3']=document.getElementById('uploadfile3').value;
-                uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
-                  return true;
-                }
-            </script>
+<iframe id="uploadtarget" name="uploadtarget" src="" style="width:0px;height:0px;border:0"></iframe>
+<div id='uploadarea'><p><img src=http://49video.resources.s3.amazonaws.com/loading.gif width=16 height=16>  Loading <a href=http://www.uploadthingy.com>Uploadthingy file upload form</a>... <br><br>If your upload form doesn't display within a few seconds, please check the <a href=http://www.uploadthingy.com/faq.html>FAQ</a> or contact us at hello@uploadthingy.com. We'd love to help out!</p></div>
+<script type="text/javascript" language="Javascript">
+var sitecode="bGN3ZWRkaW5nLmdpdGh1Yi5pbw==";
+authupload();
+function getUploadForm(json) {
+showblinks=false;
+var h="";
+h+="<p style='color:gray; font-weight:bold; font-size:larger; font-variant: small-caps;'>Your name<br>";
+h+="<input type=text style='width:400px;' id='uploader_name' name='uploader_name'></p>";
+h+="<p style='color:gray; font-weight:bold; font-size:larger; font-variant: small-caps;'>Files<br>";
+h+="<input type='file' size='40' id='uploadfile0' name='file0'><br>";
+h+="<input type='file' size='40' id='uploadfile1' name='file1'><br>";
+h+="<input type='file' size='40' id='uploadfile2' name='file2'><br>";
+h+="<input type='file' size='40' id='uploadfile3' name='file3'><br>";
+h+="<input type='file' size='40' id='uploadfile4' name='file4'><br>";
+h+="<input type='file' size='40' id='uploadfile5' name='file5'><br>";
+h+="<input type='file' size='40' id='uploadfile6' name='file6'><br>";
+h+="<input type='file' size='40' id='uploadfile7' name='file7'><br>";
+h+="<input type='file' size='40' id='uploadfile8' name='file8'><br>";
+h+="<input type='file' size='40' id='uploadfile9' name='file9'><br>";
+h+="<input type='file' size='40' id='uploadfile10' name='file10'><br>";
+h+="<input type='file' size='40' id='uploadfile11' name='file11'><br>";
+h+="<input type='file' size='40' id='uploadfile12' name='file12'><br>";
+h+="<input type='file' size='40' id='uploadfile13' name='file13'><br>";
+h+="<input type='file' size='40' id='uploadfile14' name='file14'><br>";
+h+="</p>";
+h+="<input type='hidden' id='authcode' name='authcode' value='"+json.c+"'>";
+h+="<input type='hidden' id='uploadid' name='id' value='widget$"+json.d+"$"+json.c.substring(0,json.c.indexOf("_"))+"'>";
+h+="<input type='hidden' id='callbackurl' name='callbackurl' value='"+baseserverurl+"'>";
+h+="<input type='hidden' name='savemeta' value='yes'>";
+h+="<p><input class='widget_button' id='49widget_submitbutton' type='button' onclick='doUpload();' name='suploadvideo' value='Upload'></p>";
+return h;
+}
+function doUpload() { if (checkform()) { upload('start'); } }
+function checkform() { 
+var found=false;
+var cnt=0;
+while (document.getElementById('uploadfile'+cnt)) {
+if (document.getElementById('uploadfile'+cnt).value.length>0) {
+found=true;
+break;
+}
+cnt++;
+}
+if (!found) {
+alert('Please select at least one file to upload.');
+return false;
+}
+uploadmetadata=new Array();
+uploadmetadata['name']=document.getElementById('uploader_name').value;
+uploadmetadata['uploadfile0']=document.getElementById('uploadfile0').value;
+uploadmetadata['uploadfile1']=document.getElementById('uploadfile1').value;
+uploadmetadata['uploadfile2']=document.getElementById('uploadfile2').value;
+uploadmetadata['uploadfile3']=document.getElementById('uploadfile3').value;
+uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
+uploadmetadata['uploadfile5']=document.getElementById('uploadfile5').value;
+uploadmetadata['uploadfile6']=document.getElementById('uploadfile6').value;
+uploadmetadata['uploadfile7']=document.getElementById('uploadfile7').value;
+uploadmetadata['uploadfile8']=document.getElementById('uploadfile8').value;
+uploadmetadata['uploadfile9']=document.getElementById('uploadfile9').value;
+uploadmetadata['uploadfile10']=document.getElementById('uploadfile10').value;
+uploadmetadata['uploadfile11']=document.getElementById('uploadfile11').value;
+uploadmetadata['uploadfile12']=document.getElementById('uploadfile12').value;
+uploadmetadata['uploadfile13']=document.getElementById('uploadfile13').value;
+uploadmetadata['uploadfile14']=document.getElementById('uploadfile14').value;
+	return true;
+}
+</script>
+
         </div> <!-- end wrapper -->
     </div> <!-- end upload -->
 
