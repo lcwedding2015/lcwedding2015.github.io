@@ -317,7 +317,7 @@ body {
     display: none;
 }
 
-.wrapper {
+.guest-upload-wrapper {
     width: 90%;
     margin: 0 auto;
     /*padding-top: 2em;*/
@@ -355,7 +355,7 @@ blockquote {
     font-variant: normal !important;
 }
 
-.upload > .wrapper > p > a {
+.upload > .guest-upload-wrapper > p > a {
     color: #333;
 }
 
