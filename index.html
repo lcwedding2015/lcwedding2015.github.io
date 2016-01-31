@@ -463,10 +463,9 @@ uploadmetadata['uploadfile4']=document.getElementById('uploadfile4').value;
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
               var target = $(this.hash);
               target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              console.log("target= " + target);
               if (target.length) {
                 $('html,body').animate({
-                  scrollTop: target.offset().top + 230
+                  scrollTop: target.offset().top + 350
                 }, 1000);
                 return false;
               }
