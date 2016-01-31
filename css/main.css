@@ -354,6 +354,14 @@ blockquote {
     color: #333;
 }
 
+#uploadfile0,
+#uploadfile1,
+#uploadfile2,
+#uploadfile3,
+#uploadfile4 {
+    margin-top:20px;
+}
+
 /*******************************************
 Story page
 *******************************************/
