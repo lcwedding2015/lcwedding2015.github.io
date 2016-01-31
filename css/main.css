@@ -204,6 +204,11 @@ body {
     border-right: 1px solid #ccc;
 }
 
+#nav li:nth-child(3) {
+    border-right: 1px solid #ccc;
+}
+
+
 #divider-img {
     background-image: url(../img/flowers.jpg);
     -webkit-background-size: cover;
