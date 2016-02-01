@@ -676,7 +676,8 @@ Story page
 
 @media only screen and (min-width: 1660px) {
     #landing img,
-    h1 {
+    h1,
+    .title {
         width: 68%;
     }
 }
