@@ -343,13 +343,6 @@ textarea {
     resize: none;
 }
 
-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: medium none;
-}
-
 #hcb_submit {
     margin: 1em;
     padding: 0.5em 1em;
@@ -598,6 +591,13 @@ Story page
     #hcb_form_name,
     #uploader_name {
         border-width: 0px 0px 1px 0px; 
+    }
+    
+    input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: medium none;
     }
     
     #field,
