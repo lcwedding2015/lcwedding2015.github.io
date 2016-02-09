@@ -178,7 +178,7 @@ body {
     width: 90%;
 }
 
-.one .title {
+.one.title {
     font-size: 0.75em !important;
 }
 
