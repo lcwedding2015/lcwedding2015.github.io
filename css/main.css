@@ -178,8 +178,8 @@ body {
     width: 90%;
 }
 
-.one.title {
-    font-size: 0.75em !important;
+#landing h1 {
+    font-size: 0.75em;
 }
 
 #landing-content {
@@ -449,8 +449,8 @@ Story page
         padding: 0 20px;
     }
 
-    .one.title {
-        font-size: 1em !important;
+    #landing h1 {
+        font-size: 1em;
     }
 /* ========================
     INTERMEDIATE: IE Fixes
