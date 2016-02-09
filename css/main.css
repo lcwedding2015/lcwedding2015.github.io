@@ -319,6 +319,13 @@ body {
     display: none;
 }
 
+#hcb_form_name,
+#uploader_name {
+    width: 100%;
+    margin: 1em auto;
+    background-color: transparent;
+}
+
 .guest-upload-wrapper {
     width: 90%;
     margin: 0 auto;
@@ -586,9 +593,6 @@ Story page
     
     #hcb_form_name,
     #uploader_name {
-        width: 100%;
-        margin: 1em auto;
-        background-color: transparent; 
         border-style: solid; 
         border-width: 0px 0px 1px 0px; 
         border-color: gray;
