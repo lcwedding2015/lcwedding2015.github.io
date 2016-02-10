@@ -489,11 +489,6 @@ Story page
         line-height: 2em;
     }
 
-    .wedding-section,
-    .wedding-video {
-        /*margin-top: 3em;*/
-    }
-
     .guest-upload-wrapper {
         width: 60%;
     }
@@ -700,7 +695,7 @@ Story page
     #landing img,
     h1,
     .title {
-        width: 70%;
+        width: 68%;
     }
 }
 
