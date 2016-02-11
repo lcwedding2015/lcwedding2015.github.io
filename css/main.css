@@ -674,6 +674,10 @@ Story page
     #wedding-text {
         font-size: 1.25em;
     }
+    #story p,
+    #story #title {
+        width: 50%;
+    }
     
     .guest-upload-wrapper {
         width: 50%;
@@ -688,10 +692,6 @@ Story page
     }
      #landing {
         height: 100vh;
-    }
-    #story p,
-    #story #title {
-        width: 50%;
     }
 }
 
