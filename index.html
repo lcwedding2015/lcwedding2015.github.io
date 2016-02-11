@@ -428,7 +428,6 @@
     
     <!-- For lightgallery. Note: jQuery version must be >= 1.8.0; http://sachinchoolur.github.io/lightGallery/-->
     <!-- lightgallery plugins -->
-
     <script src="js/lightgallery.min.js"></script>
 
     <!-- Start lightgallery -->
@@ -450,23 +449,7 @@
             });
         });
     </script>
-    <!-- Smooth scrolling script from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
-    <script>
-        $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top - 150
-                }, 1000);
-                return false;
-              }
-            }
-          });
-        });
-    </script>
+
 
     <script>        
     // Create a clone of the menu, right next to original.
