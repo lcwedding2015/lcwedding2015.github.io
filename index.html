@@ -477,7 +477,7 @@
 
     <script>
         function scrollNav() {
-          $('.nav a').click(function(){  
+          $('#nav a').click(function(){  
             //Toggle Class
             $(".active").removeClass("active");      
             $(this).closest('li').addClass("active");
@@ -489,7 +489,7 @@
             }, 400);
             return false;
           });
-          $('.scrollTop a').scrollTop();
+          // $('.scrollTop a').scrollTop();
         }
         scrollNav();
     </script>
