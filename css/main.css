@@ -763,7 +763,6 @@ p {
 .guest-upload-wrapper {
     width: 90%;
     margin: 0 auto;
-    /*padding-top: 2em;*/
     border-radius: 3px;
     background-color: #fff;
 }
@@ -801,6 +800,7 @@ blockquote {
 #uploadfile3,
 #uploadfile4 {
     margin-top: 5px;
+    border-radius: 2px !important;
 }
 
 /*******************************************
