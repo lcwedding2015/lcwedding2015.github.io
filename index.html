@@ -462,9 +462,9 @@
     $(document).ready(function() {
         function filterPath(string) {
             return string
-            .replace(/^//,'')
+            .replace(/^/,'')
             .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-            .replace(//$/,'');
+            .replace(/$/,'');
         }
         var locationPath = filterPath(location.pathname);
         var scrollElem = scrollableElement('html', 'body');
