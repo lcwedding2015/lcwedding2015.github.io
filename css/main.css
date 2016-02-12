@@ -515,12 +515,12 @@ body {
     padding: 0;
 }
 
-div {
+/*div {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-}
+}*/
 
 a,
 h1,
