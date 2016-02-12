@@ -17,31 +17,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:300,400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script src="js/lightgallery.min.js"></script>
-    <script>
-        $('html').css({display: 'none'});
 
-        $(document).ready(function(){
-            var hashURL = location.hash;
-            if(hashURL != "" && hashURL.length > 1){
-                $(window).scrollTop(0);
-                $('html').css({display: 'block'});
-                smoothScrollTo(hashURL);
-            } else {
-                $('html').css({display: 'block'});
-            }
-        });
-        function smoothScrollTo(anchor) {
-            var duration= 5000; //time (milliseconds) it takes to reach anchor point
-            var targetY = $(anchor).offset().top;
-            $("html, body").animate({
-                "scrollTop" : targetY
-            }, duration, 'easeInOutCubic');
-        }
-    </script>
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -437,11 +413,13 @@
 
         </div> <!-- end guest-upload- -->
     </div> <!-- end upload -->
+
+    <script src="js/vendor/jquery.min.js"></script>
     
     <!-- For lightgallery. Note: jQuery version must be >= 1.8.0; http://sachinchoolur.github.io/lightGallery/-->
     <!-- lightgallery plugins -->
 
-    
+    <script src="js/lightgallery.min.js"></script>
 
     <!-- Start lightgallery -->
     <script type="text/javascript">
@@ -479,6 +457,41 @@
           });
         });
     </script>
+
+    <script type="text/javascript">// <![CDATA[
+    $(document).ready(function() {
+        function filterPath(string) {
+            return string
+            .replace(/^//,'')
+            .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+            .replace(//$/,'');
+        }
+        var locationPath = filterPath(location.pathname);
+        var scrollElem = scrollableElement('html', 'body');
+
+        $('a[href*=#]').each(function() {
+            var thisPath = filterPath(this.pathname) || locationPath;
+            if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/,'') ) {
+                var $target = $(this.hash), target = this.hash;
+                if (target) {
+                    var targetOffset = $target.offset().top;
+                    $(this).click(function(event) {
+                        event.preventDefault();
+                        $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+                            location.hash = target;
+                        });
+                    });
+                }
+            }
+        });
+
+        // Check the current URL on page load to see if a hash was passed
+        if ( window.location.hash ) {
+            var targetOffset = $('a[href*=' + window.location.hash + ']').offset().top;
+            $(scrollElem).animate({scrollTop: targetOffset}, 400);
+        }
+    }
+    // ]]></script>
 
     <script>        
     // Create a clone of the menu, right next to original.
