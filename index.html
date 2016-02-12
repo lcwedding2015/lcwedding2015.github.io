@@ -457,51 +457,9 @@
           });
         });
     </script>
-
-    <script type="text/javascript">
-    $(document).ready(function() 
-    {
-        function filterPath(string) 
-        {
-            return string
-            .replace(/^/,'')
-            .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
-            .replace(/$/,'');
-        }
-        var locationPath = filterPath(location.pathname);
-        var scrollElem = scrollableElement('html', 'body');
-
-        $('a[href*=#]').each(function() 
-        {
-            var thisPath = filterPath(this.pathname) || locationPath;
-            if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/,'') ) 
-            {
-                var $target = $(this.hash), target = this.hash;
-                if (target) 
-                {
-                    var targetOffset = $target.offset().top;
-                    $(this).click(function(event) 
-                    {
-                        event.preventDefault();
-                        $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
-                            location.hash = target;
-                        });
-                    });
-                }
-            }
-        });
-
-        // Check the current URL on page load to see if a hash was passed
-        if ( window.location.hash ) {
-            var targetOffset = $('a[href*=' + window.location.hash + ']').offset().top;
-            $(scrollElem).animate({scrollTop: targetOffset}, 400);
-        }
-    });
-    </script>
-
     <script>        
     // Create a clone of the menu, right next to original.
-    $('#nav').addClass('original').clone().insertAfter('#nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
+    $('#nav').addClass('original').clone().insertAfter('#nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').css('background-color','white').css('background-color','rgba(255,255,255,0.9').removeClass('original').hide();
     scrollIntervalID = setInterval(stickIt, 10);
     function stickIt() {
       var orgElementPos = $('.original').offset();

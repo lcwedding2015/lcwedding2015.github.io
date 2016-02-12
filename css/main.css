@@ -649,6 +649,12 @@ p {
     font-size: 0.75em;
 }
 
+.fixed-header {
+  position: fixed !important;
+  top:0; left:0;
+  width: 100%; 
+}
+
 #nav li:nth-child(2) {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
