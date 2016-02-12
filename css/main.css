@@ -945,11 +945,16 @@ Story page
         font-size: 1.25em;
     }
 
+    #landing {
+        margin-bottom: 2em;
+    }
+
     .title,
     #landing img{
-        width: 85%;
+        width: 80%;
         margin-bottom: 1.5em; 
     }
+
 
     .container {
         width: 656px;
@@ -1006,7 +1011,13 @@ Story page
     }
 }
 
-@media only screen and (min-width: 1025px) {    
+@media only screen and (min-width: 1025px) {
+    .title,
+    #landing img{
+        width: 85%;
+        margin-bottom: 1.5em; 
+    }
+    
     .container {
         width: 825px;
     }
