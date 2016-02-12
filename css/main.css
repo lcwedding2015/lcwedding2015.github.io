@@ -630,7 +630,9 @@ p {
 #nav {
     text-align: center;
     margin: 0;
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     background-color: white;
     background-color: rgba(255,255,255,0.9);
@@ -1001,6 +1003,17 @@ Story page
         margin-bottom: 1.5em; 
     }
     
+    #nav {
+        text-align: center;
+        margin: 0;
+        position: relative;
+        width: 100%;
+        background-color: white;
+        background-color: rgba(255,255,255,0.9);
+        padding: 0.75em 0;
+        z-index: 999;
+    }
+
     .container {
         width: 825px;
     }
