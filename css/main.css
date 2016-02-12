@@ -586,7 +586,7 @@ p {
 }
 
 .container {
-    width: 89%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -704,19 +704,19 @@ p {
 #invite {
     margin: 2em auto;
     width: 100%;
+    display: block;
 }
 
 #lightgallery {
-    /*width: 90%;*/
     margin: 1em auto 3em auto;
 }
 
 #lightgallery img {
     width: 75px;
     height: auto;
-    margin-bottom: 15px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-bottom: 6px;
+    margin-right: 1px;
+    margin-left: 1px;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
@@ -732,7 +732,7 @@ p {
 }
 
 #hash4 img {
-    width: 100%;
+    width: 322px;
 }
 
 .wedding-video {
@@ -816,7 +816,7 @@ Story page
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    left: 0;comme
+    left: 0;
     right: 0;
 }
 
@@ -872,6 +872,12 @@ Story page
    Media Queries
    ========================================================================== */
 
+@media only screen and (min-width: 360px) {
+    .container {
+        width: 322px;
+    }
+}
+
 @media only screen and (min-width: 480px) {
     h1.one span {
         padding: 0 20px;
@@ -882,11 +888,16 @@ Story page
     }
     
     .container {
-        width: 83%;
+        width: 402px;
     }
 
     .wedding-party img {
         width: 100%;
+    }
+
+
+    #hash4 img {
+        width: 402px;
     }
 
 /* ========================
@@ -902,6 +913,17 @@ Story page
     }
 }
 
+@media only screen and (min-width: 560px) {
+    .container {
+        width: 484px;
+    }
+
+    #hash4 img {
+        width: 484px;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
 
     h1 {
@@ -912,6 +934,9 @@ Story page
         font-size: 1.25em;
     }
 
+    .container {
+        width: 656px;
+    }
     #intro-container {
         margin: 1em auto 0 auto;
         width: 60%;
@@ -923,7 +948,7 @@ Story page
     }
 
    .wedding-party img {
-        width: 98%;
+        width: 99%;
     }
     #invite {
         width: 50%;
@@ -971,7 +996,7 @@ Story page
     }
     
     .container {
-        width: 89%;
+        width: 825px;
     }
 
     #lightgallery {
@@ -980,6 +1005,9 @@ Story page
 
     #lightgallery img {
         width: 150px;
+        margin-bottom: 8px;
+        margin-right: 3px;
+        margin-left: 3px;
     }
 
     .mobile-img {
@@ -1000,7 +1028,7 @@ Story page
     }
 
     #hash4 img {
-        width: 40%;
+        width: 470px;
     }
     
     #kiss,
@@ -1104,7 +1132,7 @@ Story page
     }
 
     .container {
-        width: 83%;
+        width: 974px;
     }
     
     #wedding-text {
@@ -1121,9 +1149,9 @@ Story page
     .title {
         width: 75%;
     }
-    .container {
+/*    .container {
         width: 72%;
-    }
+    }*/
 
      #landing {
         height: 100vh;
@@ -1230,7 +1258,7 @@ Story page
 .invisible {
     visibility: hidden;
 }
-
+*/
 .clearfix:before,
 .clearfix:after {
     content: " ";
