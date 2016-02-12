@@ -513,10 +513,10 @@ textarea {
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
-html {
-    width: 100%;
+
+div {
+    box-sizing: border-box;
 }
 
 a,
