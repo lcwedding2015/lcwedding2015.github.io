@@ -642,7 +642,7 @@ p {
 #nav.stick {
     position: fixed;
     top: 0;
-    z-index: 10000;
+    z-index: 1000;
     border-radius: 0 0 0.5em 0.5em;
     -webkit-transform: translate3d(0px,0px,0px);
     transform: translate3d(0px,0px,0px);
