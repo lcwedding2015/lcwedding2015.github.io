@@ -458,9 +458,11 @@
         });
     </script>
 
-    <script type="text/javascript">// <![CDATA[
-    $(document).ready(function() {
-        function filterPath(string) {
+    <script type="text/javascript">
+    $(document).ready(function() 
+    {
+        function filterPath(string) 
+        {
             return string
             .replace(/^/,'')
             .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
@@ -469,13 +471,17 @@
         var locationPath = filterPath(location.pathname);
         var scrollElem = scrollableElement('html', 'body');
 
-        $('a[href*=#]').each(function() {
+        $('a[href*=#]').each(function() 
+        {
             var thisPath = filterPath(this.pathname) || locationPath;
-            if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/,'') ) {
+            if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/,'') ) 
+            {
                 var $target = $(this.hash), target = this.hash;
-                if (target) {
+                if (target) 
+                {
                     var targetOffset = $target.offset().top;
-                    $(this).click(function(event) {
+                    $(this).click(function(event) 
+                    {
                         event.preventDefault();
                         $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
                             location.hash = target;
@@ -490,8 +496,8 @@
             var targetOffset = $('a[href*=' + window.location.hash + ']').offset().top;
             $(scrollElem).animate({scrollTop: targetOffset}, 400);
         }
-    }
-    // ]]></script>
+    });
+    </script>
 
     <script>        
     // Create a clone of the menu, right next to original.
