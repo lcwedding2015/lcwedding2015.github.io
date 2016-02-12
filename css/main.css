@@ -599,8 +599,8 @@ body {
 .offset:before {
   display: block;
   content: " ";
-  height: 48px;
-  margin-top: -48px;
+  height: 80px;
+  margin-top: -80px;
   visibility: hidden;
 }
 /* ==========================================================================
