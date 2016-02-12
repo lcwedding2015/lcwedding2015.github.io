@@ -513,6 +513,7 @@ textarea {
 body {
     margin: 0;
     padding: 0;
+    min-width: 320px;
 }
 
 a,
@@ -746,7 +747,7 @@ p {
 
 #hcb_form_name,
 #uploader_name {
-    width:90%;
+    width: 100%;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
