@@ -586,7 +586,7 @@ p {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -657,7 +657,7 @@ p {
 #nav li {
     display: inline-block;
     padding: 0.25em 0.5em;
-    font-size: 0.75em;
+    font-size: 0.65em;
 }
 
 #nav li:nth-child(2) {
@@ -678,7 +678,7 @@ p {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
-    height: 20vh;
+    height: 10vh;
 }
 
 .wp-left {
@@ -691,6 +691,10 @@ p {
 
 .wedding-party {
     margin: 0 auto;
+}
+
+.wedding-party p {
+    font-size: 0.8em;
 }
 
 .wedding-party p,
@@ -708,7 +712,6 @@ p {
 #wedding-text {
     line-height: 1.5em;
     width: 100%;
-    padding: 0 20px;
     vertical-align: middle;
 }
 
@@ -907,6 +910,10 @@ Story page
     }
 
 
+    .wedding-party p {
+        font-size: 1em;
+    }
+
     #hash4 img {
         width: 402px;
     }
@@ -925,9 +932,17 @@ Story page
 }
 
 @media only screen and (min-width: 560px) {
+    #nav li {
+        font-size: 0.75em;
+    }
     .container {
         width: 484px;
     }
+
+    #divider-img {
+        height: 20vh;
+    }
+
 
     #hash4 img {
         width: 484px;
@@ -971,7 +986,7 @@ Story page
     }
 
    .wedding-party img {
-        width: 470px;
+        width: 318px;
     }
     #invite {
         width: 50%;
@@ -1020,6 +1035,10 @@ Story page
     
     .container {
         width: 825px;
+    }
+
+   .wedding-party img {
+        width: 470px;
     }
 
     #lightgallery {
