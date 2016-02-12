@@ -595,6 +595,14 @@ body {
 .mobile-img {
     width: 100%;
 }
+/*offset for anchor tags and fixed header*/
+.offset:before {
+  display: block;
+  content: " ";
+  height: 48px;
+  margin-top: -48px;
+  visibility: hidden;
+}
 /* ==========================================================================
    Home page
    ========================================================================== */
