@@ -34,7 +34,7 @@
             </ul>
         </div>
     </div> <!-- end landing -->
-    <div id="wedding" class="center">
+    <div id="wedding" class="center offset">
         <div id="divider-img"></div>
         <div id="wedding-intro">
             <h1 class="one"><span>THE WEDDING</span></h1>
@@ -460,7 +460,7 @@
               target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
               if (target.length) {
                 $('html,body').animate({
-                  scrollTop: target.offset().top - 150
+                  scrollTop: target.offset().top - 50
                 }, 1000);
                 return false;
               }
