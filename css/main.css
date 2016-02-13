@@ -494,11 +494,10 @@ textarea {
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
     background: #ccc;
     color: #fff;
     font-size: 2em;
-    padding: 2em 10%;
+    padding: 2em 0;
     text-align: center;
 }
 
