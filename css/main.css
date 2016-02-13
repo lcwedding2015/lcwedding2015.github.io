@@ -486,8 +486,9 @@ textarea {
 
 .browserupgrade {
     margin: 0.2em 0;
-    background: red;
-    color: #000;
+    background: #ccc;
+    color: #fff;
+    font-size: 2em;
     padding: 2em 0;
     text-align: center;
 }
