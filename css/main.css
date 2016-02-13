@@ -992,6 +992,14 @@ Story page
         display: inline-block;
     }
 
+    .wp-left {
+      text-align: left;
+    }
+
+    .wp-right {
+        text-align: right;
+    }
+
    .wedding-party img {
         width: 318px;
     }
@@ -1046,14 +1054,6 @@ Story page
 
    .wedding-party img {
         width: 470px;
-    }
-
-    .wp-left {
-      text-align: left;
-    }
-
-    .wp-right {
-        text-align: right;
     }
 
     #lightgallery {
