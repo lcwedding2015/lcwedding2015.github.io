@@ -692,14 +692,6 @@ p {
     height: 10vh;
 }
 
-.wp-left {
-    text-align: left;
-}
-
-.wp-right {
-    text-align: right;
-}
-
 .wedding-party {
     margin: 0 auto;
 }
@@ -728,7 +720,7 @@ p {
 
 #invite {
     margin: 2em auto;
-    width: 100%;
+    width: 240px;
     display: block;
 }
 
@@ -919,7 +911,8 @@ Story page
         width: 402px;
     }
 
-    .wedding-party img {
+    .wedding-party img,
+    #invite {
         width: 100%;
     }
 
@@ -1053,6 +1046,14 @@ Story page
 
    .wedding-party img {
         width: 470px;
+    }
+
+    .wp-left {
+      text-align: left;
+    }
+
+    .wp-right {
+        text-align: right;
     }
 
     #lightgallery {
