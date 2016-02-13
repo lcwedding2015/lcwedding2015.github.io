@@ -757,7 +757,7 @@ p {
 }
 
 #hash4 img {
-    width: 322px;
+    width: 240px;
 }
 
 .wedding-video {
@@ -900,6 +900,9 @@ Story page
 @media only screen and (min-width: 360px) {
     .container {
         width: 322px;
+    }
+    #hash4 img {
+      width: 322px;
     }
 }
 
