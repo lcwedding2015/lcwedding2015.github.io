@@ -1191,7 +1191,9 @@ Story page
     .container {
         width: 974px;
     }
-    
+    .wedding-party img {
+        width: 470px;
+    }
     #wedding-text {
         font-size: 1.25em;
     }
