@@ -1112,8 +1112,7 @@ Story page
         border: medium none;
     }
     
-    #field,
-    .upload {
+    #field {
         background-image: url(../img/gall/66.jpg);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1122,6 +1121,7 @@ Story page
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
+        height: 100vh;
     }
     
     .hide {
