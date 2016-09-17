@@ -1147,11 +1147,7 @@ Story page
     #kiss {
         height: 20vh;
     }
-    
-    #field {
-        height: 20vh;
-    }
-
+  
     #story-hero {
         background-image: url(../img/engage1.jpg);
         -webkit-background-size: cover;
